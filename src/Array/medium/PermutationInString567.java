@@ -2,7 +2,7 @@ package Array.medium;
 
 public class PermutationInString567 {
     public static void main(String[] args) {
-        boolean res = PermutationInString567.checkInclusion("abc", "ababc");
+        boolean res = PermutationInString567.checkInclusion("ab", "eidboaoo");
         System.out.println(res);
     }
 
@@ -21,7 +21,7 @@ public class PermutationInString567 {
 
         }
 
-        for (int i = 0; i < fMap2.length; i++) {
+        for (int i = 0; i < s2.length() - s1.length(); i++) {
             if (matches(fMap1, fMap2)) {
                 return true;
             }
